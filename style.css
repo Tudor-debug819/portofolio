@@ -4,32 +4,9 @@
     padding: 0;
 }
 
-body {
-    background-color: white;
+body{
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    gap: 7em;
-    padding: 30px 12% 0;
+    flex-direction: column;
 }
 
-.text {
-    color: #FF5722;
-}
-
-.text h3 {
-    font-size: 42px;
-}
-
-.text h1 {
-    font-size: 62px;
-    line-height: 1.2;
-}
-
-.text p {
-    font-size: 18px;
-    margin: 25px 0 30px;
-}
-
-img {
-    border-radius: 50%;
-}
