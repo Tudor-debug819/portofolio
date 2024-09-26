@@ -2,11 +2,91 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-heading {
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+
+}
+
+.introduction {
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text {
+    padding: 10px;
+    line-height: 1.2;
+    font-size: 16px;
+    text-align: justify;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    padding: 2em;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: purple;
+    text-align: center;
+    width: 300px; 
+    flex: 1 1 300px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: white;
+}
+
+.card p {
+    color: white;
+}
+
+footer {
+    padding: 20px;
+}
+
+#github-icon{
+    display: flex;
+    width: 30px;
+}
+
+/* img{
+    border-radius: 50%;
+} */
