@@ -14,6 +14,7 @@ body {
 nav {
     display: flex;
     padding: 20px;
+    background-color: #FF5722;
 }
 
 .nav-heading {
@@ -24,6 +25,14 @@ nav {
     display: flex;
     gap: 20px;
     font-size: 20px;
+}
+
+#contact-link {
+    color: black;
+}
+
+#contact-link:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -37,6 +46,12 @@ main {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 20px;
+}
+
+button {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
 }
 
 .text {
@@ -58,9 +73,9 @@ main {
     padding: 2em;
     border: 1px solid grey;
     border-radius: 10px;
-    background-color: purple;
+    background-color: #FF5722;
     text-align: center;
-    width: 300px; 
+    width: 300px;
     flex: 1 1 300px;
 }
 
@@ -71,22 +86,34 @@ main {
 
 .card h3 {
     margin: 10px 0;
-    color: white;
+    color: black;
 }
 
 .card p {
-    color: white;
+    color: black;
 }
 
 footer {
     padding: 20px;
 }
 
-#github-icon{
+#github-icon {
     display: flex;
     width: 30px;
 }
 
-/* img{
+#github-icon:hover {
+    transform: scale(1.1);
+}
+
+#poza-inceput {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-} */
+    object-fit: cover;
+    /* Ensures the image fits properly inside the round shape */
+}
+
+#linkedin-icon:hover {
+    transform: scale(1.1);
+}
