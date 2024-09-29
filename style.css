@@ -15,6 +15,9 @@ nav {
     display: flex;
     padding: 20px;
     background-color: #FF5722;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-heading {
@@ -49,16 +52,22 @@ main {
 }
 
 button {
-    display: flex;
-    padding: 20px;
-    margin: 20px;
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer; 
 }
 
 .text {
     padding: 10px;
     line-height: 1.2;
     font-size: 16px;
-    text-align: justify;
+    text-align: center;
     width: 50%;
 }
 
@@ -77,7 +86,11 @@ button {
     text-align: center;
     width: 300px;
     flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
 }
+
 
 .card img {
     width: 100%;
@@ -91,11 +104,9 @@ button {
 
 .card p {
     color: black;
+    text-align: left;
 }
 
-footer {
-    padding: 20px;
-}
 
 #github-icon {
     display: flex;
@@ -106,9 +117,11 @@ footer {
     transform: scale(1.1);
 }
 
+footer {
+    padding: 20px;
+}
+
 #poza-inceput {
-    width: 200px;
-    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     /* Ensures the image fits properly inside the round shape */
@@ -116,4 +129,16 @@ footer {
 
 #linkedin-icon:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .introduction {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+    }
 }
