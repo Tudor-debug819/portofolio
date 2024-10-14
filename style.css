@@ -84,11 +84,12 @@ button {
     border-radius: 10px;
     background-color: #FF5722;
     text-align: center;
-    width: 300px;
     flex: 1 1 300px;
+    max-width: 300px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 
@@ -124,7 +125,6 @@ footer {
 #poza-inceput {
     border-radius: 50%;
     object-fit: cover;
-    /* Ensures the image fits properly inside the round shape */
 }
 
 #linkedin-icon:hover {
