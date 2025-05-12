@@ -1,60 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofoliu</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <nav>
-      <div class="nav-heading">
-        <h2>Portofoliu</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofoliu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-heading">
+      <h2>Portofoliu</h2>
+    </div>
+    <div class="nav-links">
+      <a href="Contact.html" id="contact-link">Contact</a>
+      <a href="https://github.com/Tudor-debug819" target="_blank"><img id="github-icon"
+          src="imagini/icons8-github-24.png" /></a>
+      <a href="https://www.linkedin.com/feed/" target="_blank"><img id="linkedin-icon"
+          src="imagini/icons8-linkedin-24.png" /></a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="introduction">
+      <img id="poza-inceput" src="imagini/PozaPortofoliu.jpeg" width="200" height="200" />
+      <div class="text">
+        <h1>Atodiresei Tudor</h1>
+        <p>
+          I am a proactive BENG student at the Technical University of
+          Cluj-Napoca with strong academic achievements and rich volunteering
+          experience. I have knowledge about computer programming in the
+          following languages: C and C++, front-end web development using Angular, HTML, CSS,
+          and JavaScript, Office tools (Word, Excel and PowerPoint).
+        </p>
       </div>
-      <div class="nav-links">
-        <a href="Contact.html" id="contact-link">Contact</a>
-        <a href="https://github.com/Tudor-debug819" target="_blank"
-          ><img id="github-icon" src="imagini/icons8-github-24.png"
-        /></a>
-        <a href="https://www.linkedin.com/feed/" target="_blank"
-          ><img id="linkedin-icon" src="imagini/icons8-linkedin-24.png"
-        /></a>
-      </div>
-    </nav>
+    </div>
 
-    <main>
-      <div class="introduction">
-        <img
-          id="poza-inceput"
-          src="imagini/PozaPortofoliu.jpeg"
-          width="200"
-          height="200"
-        />
-        <div class="text">
-          <h1>Atodiresei Tudor</h1>
-          <p>
-            I am a proactive BENG student at the Technical University of
-            Cluj-Napoca with strong academic achievements and rich volunteering
-            experience. I have knowledge about computer programming in the
-            following languages: C and C++. I am also part of the NTT TechTrek
-            program.
-          </p>
-        </div>
-      </div>
+    <a href="CV(EN) final .pdf" download>
+      <button>Download CV</button>
+    </a>
 
-      <a href="CV(EN) final .pdf" download>
-        <button>Download CV</button>
-      </a>
+    <div class="container" id="cards-container">
+    </div>
+  </main>
 
-      <div class="container" id="cards-container">
-      </div>
-    </main>
+  <footer>
+    <hr />
+    &copy; copyright reserved
+  </footer>
+  <script src="main.js"></script>
+</body>
 
-    <footer>
-      <hr />
-      &copy; copyright reserved
-    </footer>
-    <script src="main.js"></script>
-  </body>
 </html>

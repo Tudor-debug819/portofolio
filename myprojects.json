@@ -1,58 +1,135 @@
 [
   {
     "title": "Comming Soon",
-    "description": "I made a coming soon page for my main website which is responsive using media queries.",
+    "description": "A responsive 'Coming Soon' landing page for my main website. It uses media queries to adapt seamlessly across screen sizes, and visually signals that a larger project is in development.",
     "image": "imagini/coming-soon-photo.png",
-    "technologies": ["html", "css"],
+    "technologies": [
+      "html",
+      "css"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/comingsoon",
     "liveLink": "https://tudor-debug819.github.io/comingsoon/"
   },
   {
     "title": "Back to Top",
-    "description": "A back to top page with a sticky arrow button that returns the user back to the top.",
+    "description": "A simple and functional webpage with a sticky arrow button that appears as you scroll down. Clicking it takes the user smoothly back to the top, enhancing user experience for long pages.",
     "image": "imagini/back-to-top-photo.png",
-    "technologies": ["html", "css"],
+    "technologies": [
+      "html",
+      "css"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/backtotop",
     "liveLink": "https://tudor-debug819.github.io/backtotop/"
   },
   {
     "title": "Site layout",
-    "description": "Two web pages created with grid and flexbox layouts to improve understanding.",
+    "description": "Two fully responsive web pages created using CSS Grid and Flexbox. This project demonstrates a solid understanding of modern layout systems for clean, structured UI designs.",
     "image": "imagini/site-layout-photo.png",
-    "technologies": ["html", "css"],
+    "technologies": [
+      "html",
+      "css"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/siteLayout",
     "liveLink": "https://github.com/Tudor-debug819/siteLayout/"
   },
   {
     "title": "Currency Exchange",
-    "description": "Currency exchange app to quickly calculate money conversion.",
+    "description": "A currency conversion app where users can input an amount and convert between selected currencies. It fetches real-time exchange rates and displays accurate results dynamically.",
     "image": "imagini/currency.png",
-    "technologies": ["html", "css", "javascript"],
+    "technologies": [
+      "html",
+      "css",
+      "javascript"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/convertor-valutar",
     "liveLink": "https://tudor-debug819.github.io/convertor-valutar/"
   },
   {
     "title": "Random Name Generator",
-    "description": "Helps you decide who is going to pay a bill at a restaurant by generating a random name.",
+    "description": "This app helps users decide who pays the bill or performs a task by generating a random name from a list. It's a fun and practical tool built with dynamic input handling.",
     "image": "imagini/random-name.png",
-    "technologies": ["html", "css", "javascript"],
+    "technologies": [
+      "html",
+      "css",
+      "javascript"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/random-generator",
     "liveLink": "https://tudor-debug819.github.io/random-generator/"
   },
   {
     "title": "Tip Calculator",
-    "description": "Calculates how much tip you should give based on the meal price.",
+    "description": "An interactive calculator that helps users quickly determine the right tip amount based on the bill value and desired percentage. It also supports custom tip values.",
     "image": "imagini/bacsis.png",
-    "technologies": ["html", "css", "javascript"],
+    "technologies": [
+      "html",
+      "css",
+      "javascript"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/bacsis",
     "liveLink": "https://tudor-debug819.github.io/bacsis/"
   },
   {
     "title": "Multilevel Menu",
-    "description": "Multilevel menu that transforms into a hamburger menu on smaller screens.",
+    "description": "A responsive multilevel dropdown menu that transforms into a hamburger-style navigation on smaller screens. Ideal for scalable site navigation structures.",
     "image": "imagini/multilevelmenu.png",
-    "technologies": ["html", "css", "javascript"],
+    "technologies": [
+      "html",
+      "css",
+      "javascript"
+    ],
     "githubLink": "https://github.com/Tudor-debug819/multilevel-menu",
     "liveLink": "https://tudor-debug819.github.io/multilevel-menu/"
+  },
+  {
+    "title": "School Management",
+    "description": "A web application built in Angular that supports authentication for three different user roles: Admin, Teacher, and Student. Each role has its own dedicated dashboard and features. The application uses NgRx for state management, ensuring efficient data flow and scalability.",
+    "image": "imagini/school-management.png",
+    "technologies": [
+      "Angular",
+      "html",
+      "css",
+      "Typescript"
+    ],
+    "githubLink": "https://github.com/Tudor-debug819/School-Management",
+    "liveLink": "https://school-management-gold-pi.vercel.app/home"
+  },
+  {
+    "title": "Base Project",
+    "description": "A basic Angular app where users can select a country from a dropdown, which dynamically loads a list of cities. It includes a login page that grants access to additional features or routes once authenticated.",
+    "image": "imagini/base-project.png",
+    "technologies": [
+      "Angular",
+      "html",
+      "css",
+      "Typescript"
+    ],
+    "githubLink": "https://github.com/Tudor-debug819/BaseProject",
+    "liveLink": "https://base-project-izvg.vercel.app/home"
+  },
+  {
+    "title": "Pomodoro Timer",
+    "description": "A Pomodoro-style timer that helps users focus using the 25/5-minute technique. It includes local notifications, an activity history tracker, and smooth transitions between work and break sessions.",
+    "image": "imagini/pomodoro.png",
+    "technologies": [
+      "Angular",
+      "html",
+      "css",
+      "Typescript"
+    ],
+    "githubLink": "https://github.com/Tudor-debug819/pomodoro",
+    "liveLink": "https://pomodoro-three-lime.vercel.app/"
+  },
+  {
+    "title": "Christmas Project",
+    "description": "An interactive Angular project with a festive theme. Users can adjust the number of snowflakes on the screen and enable background music for a holiday mood. It's fully responsive and designed with dynamic visual elements.",
+    "image": "imagini/Christmas.png",
+    "technologies": [
+      "Angular",
+      "html",
+      "css",
+      "Typescript"
+    ],
+    "githubLink": "https://github.com/Tudor-debug819/ChristmasProject",
+    "liveLink": "https://christmas-project-zeta.vercel.app/"
   }
 ]
